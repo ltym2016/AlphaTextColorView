@@ -1,0 +1,2 @@
+# AlphaTextColorView
+设置TextView的textColor色值的透明度
