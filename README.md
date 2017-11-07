@@ -2,7 +2,9 @@
 设置TextView的textColor色值的透明度
 
 # Usage
-    <com.sam.alphatextcolor.AlphaTextColorView
+XML 文件
+
+    <com.sam.alphatextcolor.AlphaTextColorView
         android:id="@+id/atv_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,6 +16,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
         
+        
+ Java 代码 
+ 
         sb_percent.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
